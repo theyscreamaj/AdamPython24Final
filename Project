@@ -1,0 +1,13 @@
+def main():
+    numbers = []
+    for i in range(20):
+        num = float(input("Enter number {}: ".format(i + 1)))
+        numbers.append(num)
+
+    print("Lowest number:", min(numbers))
+    print("Highest number:", max(numbers))
+    print("Total:", sum(numbers))
+    print("Average:", sum(numbers) / len(numbers))
+
+if __name__ == "__main__":
+    main()
